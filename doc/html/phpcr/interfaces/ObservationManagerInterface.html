@@ -1,0 +1,750 @@
+<html>
+<head>
+<title>Docs For Class ObservationManagerInterface</title>
+<link rel="stylesheet" type="text/css" href="../../media/style.css">
+</head>
+<body>
+
+<table border="0" cellspacing="0" cellpadding="0" height="48" width="100%">
+  <tr>
+    <td class="header_top">phpcr</td>
+  </tr>
+  <tr><td class="header_line"><img src="../../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+  <tr>
+    <td class="header_menu">
+        
+                                    
+                              		  [ <a href="../../classtrees_phpcr.html" class="menu">class tree: phpcr</a> ]
+		  [ <a href="../../elementindex_phpcr.html" class="menu">index: phpcr</a> ]
+		  	    [ <a href="../../elementindex.html" class="menu">all elements</a> ]
+    </td>
+  </tr>
+  <tr><td class="header_line"><img src="../../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+</table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="200" class="menu">
+	<div id="todolist">
+			<p><a href="../../todolist.html">Todo List</a></p>
+	</div>
+      <b>Packages:</b><br />
+              <a href="../../li_phpcr.html">phpcr</a><br />
+            <br /><br />
+                        <b>Files:</b><br />
+      	  <div class="package">
+			<a href="../../phpcr/_PropertyType.php.html">		PropertyType.php
+		</a><br>
+			<a href="../../phpcr/_SimpleCredentials.php.html">		SimpleCredentials.php
+		</a><br>
+	  </div><br />
+	subpackage <b>exceptions</b><br>  <div class="package">
+			<a href="../../phpcr/exceptions/_AccessDeniedException.php.html">		AccessDeniedException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_Version---ActivityViolationException.php.html">		ActivityViolationException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_NodeType---ConstraintViolationException.php.html">		ConstraintViolationException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_InvalidItemStateException.php.html">		InvalidItemStateException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_InvalidLifecycleTransitionException.php.html">		InvalidLifecycleTransitionException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_NodeType---InvalidNodeTypeDefinitionException.php.html">		InvalidNodeTypeDefinitionException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_Query---InvalidQueryException.php.html">		InvalidQueryException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_InvalidSerializedDataException.php.html">		InvalidSerializedDataException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_ItemExistsException.php.html">		ItemExistsException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_ItemNotFoundException.php.html">		ItemNotFoundException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_Version---LabelExistsVersionException.php.html">		LabelExistsVersionException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_Lock---LockException.php.html">		LockException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_LoginException.php.html">		LoginException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_MergeException.php.html">		MergeException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_NamespaceException.php.html">		NamespaceException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_NodeType---NodeTypeExistsException.php.html">		NodeTypeExistsException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_NodeType---NoSuchNodeTypeException.php.html">		NoSuchNodeTypeException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_NoSuchWorkspaceException.php.html">		NoSuchWorkspaceException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_PathNotFoundException.php.html">		PathNotFoundException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_ReferentialIntegrityException.php.html">		ReferentialIntegrityException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_RepositoryException.php.html">		RepositoryException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_UnsupportedRepositoryOperationException.php.html">		UnsupportedRepositoryOperationException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_ValueFormatException.php.html">		ValueFormatException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_Version---VersionException.php.html">		VersionException.php
+		</a><br>
+	  </div><br />
+	subpackage <b>interfaces</b><br>  <div class="package">
+			<a href="../../phpcr/interfaces/_Security---AccessControlEntryInterface.php.html">		AccessControlEntryInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Security---AccessControlException.php.html">		AccessControlException.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Security---AccessControlListInterface.php.html">		AccessControlListInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Security---AccessControlManagerInterface.php.html">		AccessControlManagerInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Security---AccessControlPolicyInterface.php.html">		AccessControlPolicyInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---AndInterface.php.html">		AndInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_BinaryInterface.php.html">		BinaryInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---BindVariableValueInterface.php.html">		BindVariableValueInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---ChildNodeInterface.php.html">		ChildNodeInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---ChildNodeJoinConditionInterface.php.html">		ChildNodeJoinConditionInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---ColumnInterface.php.html">		ColumnInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---ComparisonInterface.php.html">		ComparisonInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---ConstraintInterface.php.html">		ConstraintInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_ContentHandlerInterface.php.html">		ContentHandlerInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_CredentialsInterface.php.html">		CredentialsInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---DescendantNodeInterface.php.html">		DescendantNodeInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---DescendantNodeJoinConditionInterface.php.html">		DescendantNodeJoinConditionInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---DynamicOperandInterface.php.html">		DynamicOperandInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---EquiJoinConditionInterface.php.html">		EquiJoinConditionInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Observation---EventInterface.php.html">		EventInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Observation---EventJournalInterface.php.html">		EventJournalInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Observation---EventListenerInterface.php.html">		EventListenerInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---FullTextSearchInterface.php.html">		FullTextSearchInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---FullTextSearchScoreInterface.php.html">		FullTextSearchScoreInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Retention---HoldInterface.php.html">		HoldInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_ImportUUIDBehaviourInterface.php.html">		ImportUUIDBehaviourInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_NodeType---ItemDefinitionInterface.php.html">		ItemDefinitionInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_ItemInterface.php.html">		ItemInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_ItemVisitorInterface.php.html">		ItemVisitorInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---JoinConditionInterface.php.html">		JoinConditionInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---JoinInterface.php.html">		JoinInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---LengthInterface.php.html">		LengthInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---LiteralInterface.php.html">		LiteralInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Lock---LockInterface.php.html">		LockInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Lock---LockManagerInterface.php.html">		LockManagerInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---LowerCaseInterface.php.html">		LowerCaseInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Security---NamedAccessControlPolicyInterface.php.html">		NamedAccessControlPolicyInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_NamespaceRegistryInterface.php.html">		NamespaceRegistryInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_NodeType---NodeDefinitionInterface.php.html">		NodeDefinitionInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_NodeType---NodeDefinitionTemplateInterface.php.html">		NodeDefinitionTemplateInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_NodeInterface.php.html">		NodeInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---NodeLocalNameInterface.php.html">		NodeLocalNameInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---NodeNameInterface.php.html">		NodeNameInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_NodeType---NodeTypeDefinitionInterface.php.html">		NodeTypeDefinitionInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_NodeType---NodeTypeInterface.php.html">		NodeTypeInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_NodeType---NodeTypeManagerInterface.php.html">		NodeTypeManagerInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_NodeType---NodeTypeTemplateInterface.php.html">		NodeTypeTemplateInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---NotInterface.php.html">		NotInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Observation---ObservationManagerInterface.php.html">		ObservationManagerInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Version---OnParentVersionAction.php.html">		OnParentVersionAction.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---OperandInterface.php.html">		OperandInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---OrderingInterface.php.html">		OrderingInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---OrInterface.php.html">		OrInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Security---PrivilegeInterface.php.html">		PrivilegeInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_NodeType---PropertyDefinitionInterface.php.html">		PropertyDefinitionInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_NodeType---PropertyDefinitionTemplateInterface.php.html">		PropertyDefinitionTemplateInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---PropertyExistenceInterface.php.html">		PropertyExistenceInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_PropertyInterface.php.html">		PropertyInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---PropertyValueInterface.php.html">		PropertyValueInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QueryInterface.php.html">		QueryInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QueryManagerInterface.php.html">		QueryManagerInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---QueryObjectModelConstantsInterface.php.html">		QueryObjectModelConstantsInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---QueryObjectModelFactoryInterface.php.html">		QueryObjectModelFactoryInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---QueryObjectModelInterface.php.html">		QueryObjectModelInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QueryResultInterface.php.html">		QueryResultInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_RepositoryFactoryInterface.php.html">		RepositoryFactoryInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_RepositoryInterface.php.html">		RepositoryInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Retention---RetentionManagerInterface.php.html">		RetentionManagerInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Retention---RetentionPolicyInterface.php.html">		RetentionPolicyInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---RowInterface.php.html">		RowInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---SameNodeInterface.php.html">		SameNodeInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---SameNodeJoinConditionInterface.php.html">		SameNodeJoinConditionInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---SelectorInterface.php.html">		SelectorInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_SessionInterface.php.html">		SessionInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---SourceInterface.php.html">		SourceInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---StaticOperandInterface.php.html">		StaticOperandInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Util---TraversingItemVisitor.php.html">		TraversingItemVisitor.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---UpperCaseInterface.php.html">		UpperCaseInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Version---VersionHistoryInterface.php.html">		VersionHistoryInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Version---VersionInterface.php.html">		VersionInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Version---VersionManagerInterface.php.html">		VersionManagerInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_WorkspaceInterface.php.html">		WorkspaceInterface.php
+		</a><br>
+	  </div><br />
+	subpackage <b>prototypes</b><br>  <div class="package">
+			<a href="../../phpcr/prototypes/_GuestCredentials.php.html">		GuestCredentials.php
+		</a><br>
+	  </div><br />
+      
+            <b>Interfaces:</b><br />
+        <div class="package">
+	interfaces<br />	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/AccessControlEntryInterface.html">AccessControlEntryInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/AccessControlListInterface.html">AccessControlListInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/AccessControlManagerInterface.html">AccessControlManagerInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/AccessControlPolicyInterface.html">AccessControlPolicyInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/AndInterface.html">AndInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/BinaryInterface.html">BinaryInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/BindVariableValueInterface.html">BindVariableValueInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/ChildNodeInterface.html">ChildNodeInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/ChildNodeJoinConditionInterface.html">ChildNodeJoinConditionInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/ColumnInterface.html">ColumnInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/ComparisonInterface.html">ComparisonInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/ConstraintInterface.html">ConstraintInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/ContentHandlerInterface.html">ContentHandlerInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/CredentialsInterface.html">CredentialsInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/DescendantNodeInterface.html">DescendantNodeInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/DescendantNodeJoinConditionInterface.html">DescendantNodeJoinConditionInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/DynamicOperandInterface.html">DynamicOperandInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/EquiJoinConditionInterface.html">EquiJoinConditionInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/EventInterface.html">EventInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/EventJournalInterface.html">EventJournalInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/EventListenerInterface.html">EventListenerInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/FullTextSearchInterface.html">FullTextSearchInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/FullTextSearchScoreInterface.html">FullTextSearchScoreInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/HoldInterface.html">HoldInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/ImportUUIDBehaviourInterface.html">ImportUUIDBehaviourInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/ItemDefinitionInterface.html">ItemDefinitionInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/ItemInterface.html">ItemInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/ItemVisitorInterface.html">ItemVisitorInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/JoinConditionInterface.html">JoinConditionInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/JoinInterface.html">JoinInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/LengthInterface.html">LengthInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/LiteralInterface.html">LiteralInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/LockInterface.html">LockInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/LockManagerInterface.html">LockManagerInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/LowerCaseInterface.html">LowerCaseInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NamedAccessControlPolicyInterface.html">NamedAccessControlPolicyInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NamespaceRegistryInterface.html">NamespaceRegistryInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NodeDefinitionInterface.html">NodeDefinitionInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NodeDefinitionTemplateInterface.html">NodeDefinitionTemplateInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NodeInterface.html">NodeInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NodeLocalNameInterface.html">NodeLocalNameInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NodeNameInterface.html">NodeNameInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NodeTypeDefinitionInterface.html">NodeTypeDefinitionInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NodeTypeInterface.html">NodeTypeInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NodeTypeManagerInterface.html">NodeTypeManagerInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NodeTypeTemplateInterface.html">NodeTypeTemplateInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NotInterface.html">NotInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/ObservationManagerInterface.html">ObservationManagerInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/OperandInterface.html">OperandInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/OrderingInterface.html">OrderingInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/OrInterface.html">OrInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/PrivilegeInterface.html">PrivilegeInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/PropertyDefinitionInterface.html">PropertyDefinitionInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/PropertyDefinitionTemplateInterface.html">PropertyDefinitionTemplateInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/PropertyExistenceInterface.html">PropertyExistenceInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/PropertyInterface.html">PropertyInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/PropertyValueInterface.html">PropertyValueInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/QueryInterface.html">QueryInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/QueryManagerInterface.html">QueryManagerInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/QueryObjectModelConstantsInterface.html">QueryObjectModelConstantsInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/QueryObjectModelFactoryInterface.html">QueryObjectModelFactoryInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/QueryObjectModelInterface.html">QueryObjectModelInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/QueryResultInterface.html">QueryResultInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/RepositoryFactoryInterface.html">RepositoryFactoryInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/RepositoryInterface.html">RepositoryInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/RetentionManagerInterface.html">RetentionManagerInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/RetentionPolicyInterface.html">RetentionPolicyInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/RowInterface.html">RowInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/SameNodeInterface.html">SameNodeInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/SameNodeJoinConditionInterface.html">SameNodeJoinConditionInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/SelectorInterface.html">SelectorInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/SessionInterface.html">SessionInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/SourceInterface.html">SourceInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/StaticOperandInterface.html">StaticOperandInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/UpperCaseInterface.html">UpperCaseInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/VersionHistoryInterface.html">VersionHistoryInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/VersionInterface.html">VersionInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/VersionManagerInterface.html">VersionManagerInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/WorkspaceInterface.html">WorkspaceInterface</a><br />
+	  </div>
+      
+            <b>Classes:</b><br />
+        <div class="package">
+	interfaces<br />	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/AccessControlException.html">AccessControlException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/OnParentVersionAction.html">OnParentVersionAction</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/TraversingItemVisitor.html">TraversingItemVisitor</a><br />
+	  </div>
+  <div class="package">
+	exceptions<br />	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/AccessDeniedException.html">AccessDeniedException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/ActivityViolationException.html">ActivityViolationException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/ConstraintViolationException.html">ConstraintViolationException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/InvalidItemStateException.html">InvalidItemStateException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/InvalidLifecycleTransitionException.html">InvalidLifecycleTransitionException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/InvalidNodeTypeDefinitionException.html">InvalidNodeTypeDefinitionException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/InvalidQueryException.html">InvalidQueryException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/InvalidSerializedDataException.html">InvalidSerializedDataException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/ItemExistsException.html">ItemExistsException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/ItemNotFoundException.html">ItemNotFoundException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/LabelExistsVersionException.html">LabelExistsVersionException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/LockException.html">LockException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/LoginException.html">LoginException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/MergeException.html">MergeException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/NamespaceException.html">NamespaceException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/NodeTypeExistsException.html">NodeTypeExistsException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/NoSuchNodeTypeException.html">NoSuchNodeTypeException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/NoSuchWorkspaceException.html">NoSuchWorkspaceException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/PathNotFoundException.html">PathNotFoundException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/ReferentialIntegrityException.html">ReferentialIntegrityException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/RepositoryException.html">RepositoryException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/UnsupportedRepositoryOperationException.html">UnsupportedRepositoryOperationException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/ValueFormatException.html">ValueFormatException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/VersionException.html">VersionException</a><br />
+	  </div>
+  <div class="package">
+	prototypes<br />	    &nbsp;&nbsp;		<a href="../../phpcr/prototypes/GuestCredentials.html">GuestCredentials</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/prototypes/SimpleCredentials.html">SimpleCredentials</a><br />
+	  </div>
+  <div class="package">
+		    		<a href="../../phpcr/PropertyType.html">PropertyType</a><br />
+	  </div>
+                </td>
+    <td>
+      <table cellpadding="10" cellspacing="0" width="100%" border="0"><tr><td valign="top">
+
+<h1>Class: ObservationManagerInterface</h1>
+Source Location: /Observation/ObservationManagerInterface.php<br /><br />
+
+
+<table width="100%" border="0">
+<tr><td valign="top">
+
+<h3><a href="#class_details">Interface Overview</a></h3>
+<pre>\
+   |
+   --ObservationManagerInterface</pre><br />
+<div class="description">The ObservationManager object.</div><br /><br />
+<h4>Author(s):</h4>
+<ul>
+        </ul>
+
+
+
+
+    
+
+        
+</td>
+
+
+
+<td valign="top">
+<h3><a href="#class_methods">Methods</a></h3>
+<ul>
+    <li><a href="../../phpcr/interfaces/ObservationManagerInterface.html#methodaddEventListener">addEventListener</a></li>
+    <li><a href="../../phpcr/interfaces/ObservationManagerInterface.html#methodgetEventJournal">getEventJournal</a></li>
+    <li><a href="../../phpcr/interfaces/ObservationManagerInterface.html#methodgetRegisteredEventListeners">getRegisteredEventListeners</a></li>
+    <li><a href="../../phpcr/interfaces/ObservationManagerInterface.html#methodremoveEventListener">removeEventListener</a></li>
+    <li><a href="../../phpcr/interfaces/ObservationManagerInterface.html#methodsetUserData">setUserData</a></li>
+  </ul>
+</td>
+
+</tr></table>
+<hr />
+
+<table width="100%" border="0"><tr>
+
+
+
+
+
+
+</tr></table>
+<hr />
+
+<a name="class_details"></a>
+<h3>Class Details</h3>
+<div class="tags">
+[line 52]<br />
+The ObservationManager object.<br /><br /><p>Acquired via Workspace.getObservationManager(). Allows for the registration  and deregistration of event listeners.</p><p>The \Traversable interface enables the implementation to be addressed with  <strong>foreach</strong>. ObservationManager has to implement either \RecursiveIterator  or \Iterator.  The iterator is equivalent to <strong>getRegisteredEventListeners()</strong> returning  a list of all registered event listeners. The iterator keys have no  significant meaning.</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>api:</b>&nbsp;&nbsp;</td><td></td>
+  </tr>
+</table>
+</div>
+</div><br /><br />
+<div class="top">[ <a href="#top">Top</a> ]</div><br />
+
+
+<hr />
+<a name="class_methods"></a>
+<h3>Class Methods</h3>
+<div class="tags">
+
+  <hr />
+	<a name="methodaddEventListener"></a>
+	<h3>method addEventListener <span class="smalllinenumber">[line 108]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void addEventListener(
+<a href="../../phpcr/interfaces/EventListenerInterface.html">EventListenerInterface</a>
+\\\$listener, integer
+$eventTypes, string
+$absPath, boolean
+$isDeep, 
+$uuid, 
+$nodeTypeName, boolean
+$noLocal, \PHPCR\Observation\EventListenerInterface
+$listener)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Adds an event listener that listens for the specified eventTypes (a  combination of one or more event types encoded as a bit mask value).<br /><br /><p>The set of events will be further filtered by the access rights of the c  urrent Session as well as the restrictions specified by the parameters of  this method. These restrictions are stated in terms of characteristics of the  associated parent node of the event.</p><p>The associated parent node of an event is the parent node of the item at (or  formerly at) the path returned by Event.getPath(). The following restrictions  are available:   <strong>absPath</strong>, <strong>isDeep</strong>: Only events whose associated parent node is at absPath (or    within its subgraph, if isDeep is true) will be received. It is permissible    to register a listener for a path where no node currently exists.   <strong>uuid</strong>: Only events whose associated parent node has one of the identifiers in    this list will be received. If his parameter is null then no identifier-    related restriction is placed on events received. Note that specifying an    empty array instead of null would result in no nodes being listened to. The    term &quot;UUID&quot; is used for compatibility with JCR 1.0.   <strong>nodeTypeName</strong>: Only events whose associated parent node has one of the node    types (or a subtype of one of the node types) in this list will be received.    If his parameter is null then no node type-related restriction is placed on    events received. Note that specifying an empty array instead of null would    result in no nodes types being listened to.</p><p>The restrictions are &quot;ANDed&quot; together. In other words, for a particular node  to be &quot;listened to&quot; it must meet all the restrictions.  Additionally, if noLocal is true, then events generated by the session  through which the listener was registered are ignored. Otherwise, they are  not ignored.</p><p>The filters of an already-registered EventListener can be changed at runtime  by re-registering the same EventListener object (i.e. the same actual object)  with a new set of filter arguments. The implementation must ensure that no  events are lost during the changeover.</p><p>In addition to the filters placed on a listener above, the scope of  observation support, in terms of which subgraphs are observable, may also be  subject to implementation-specific restrictions. For example, in some  repositories observation of changes in the jcr:system subgraph may not be  supported</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\RepositoryException if an error occurs.</td>
+  </tr>
+  <tr>
+    <td><b>api:</b>&nbsp;&nbsp;</td><td></td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">\PHPCR\Observation\EventListenerInterface&nbsp;&nbsp;</td>
+        <td><b>$listener</b>&nbsp;&nbsp;</td>
+        <td>An EventListener object.</td>
+      </tr>
+          <tr>
+        <td class="type">integer&nbsp;&nbsp;</td>
+        <td><b>$eventTypes</b>&nbsp;&nbsp;</td>
+        <td>A combination of one or more event type constants encoded as a bitmask.</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$absPath</b>&nbsp;&nbsp;</td>
+        <td>The absolute path identifying the node to be observed.</td>
+      </tr>
+          <tr>
+        <td class="type">boolean&nbsp;&nbsp;</td>
+        <td><b>$isDeep</b>&nbsp;&nbsp;</td>
+        <td>Switch to define the given path as a reference to a child node.</td>
+      </tr>
+          <tr>
+        <td class="type">array&nbsp;&nbsp;</td>
+        <td><b>$uuid</b>&nbsp;&nbsp;</td>
+        <td>List of identifiers of events to be recieved.</td>
+      </tr>
+          <tr>
+        <td class="type">array&nbsp;&nbsp;</td>
+        <td><b>$nodeTypeName</b>&nbsp;&nbsp;</td>
+        <td>List of node type names to identify the events to be recieved.</td>
+      </tr>
+          <tr>
+        <td class="type">boolean&nbsp;&nbsp;</td>
+        <td><b>$noLocal</b>&nbsp;&nbsp;</td>
+        <td>switch to handle local events.</td>
+      </tr>
+          <tr>
+        <td class="type"><a href="../../phpcr/interfaces/EventListenerInterface.html">EventListenerInterface</a>&nbsp;&nbsp;</td>
+        <td><b>\\\$listener</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetEventJournal"></a>
+	<h3>method getEventJournal <span class="smalllinenumber">[line 176]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>\PHPCR\Observation\EventJournalInterface getEventJournal(
+[integer
+$eventTypes = NULL], [string
+$absPath = NULL], [boolean
+$isDeep = NULL], [
+$uuid = NULL], [
+$nodeTypeName = NULL])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Retrieves the event journal for this workspace.<br /><br /><p>If journaled observation is not supported for this workspace, NULL is  returned.</p><p>Events returned in the EventJournal instance will be filtered according  to the parameters of this method, the current session's access  restrictions as well as any additional restrictions specified through  implemention-specific configuration.</p><p>The parameters of this method filter the event set in the same way as  they do in addEventListener().</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>an EventJournal (or NULL).</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\RepositoryException if an error occurs</td>
+  </tr>
+  <tr>
+    <td><b>api:</b>&nbsp;&nbsp;</td><td></td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">integer&nbsp;&nbsp;</td>
+        <td><b>$eventTypes</b>&nbsp;&nbsp;</td>
+        <td>A combination of one or more event type constants encoded as a bitmask.</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$absPath</b>&nbsp;&nbsp;</td>
+        <td>an absolute path.</td>
+      </tr>
+          <tr>
+        <td class="type">boolean&nbsp;&nbsp;</td>
+        <td><b>$isDeep</b>&nbsp;&nbsp;</td>
+        <td>Switch to define the given path as a reference to a child node.</td>
+      </tr>
+          <tr>
+        <td class="type">array&nbsp;&nbsp;</td>
+        <td><b>$uuid</b>&nbsp;&nbsp;</td>
+        <td>array of identifiers.</td>
+      </tr>
+          <tr>
+        <td class="type">array&nbsp;&nbsp;</td>
+        <td><b>$nodeTypeName</b>&nbsp;&nbsp;</td>
+        <td>array of node type names.</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetRegisteredEventListeners"></a>
+	<h3>method getRegisteredEventListeners <span class="smalllinenumber">[line 139]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>Iterator getRegisteredEventListeners(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Returns all event listeners that have been registered through this session.<br /><br /><p>If no listeners have been registered, an empty iterator is returned.</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>implementing <strong>SeekableIterator</strong> and <strong>Countable</strong>.                   Values are the EventListenerInterface instances. Keys have no meaning.</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\RepositoryException if an error occurs</td>
+  </tr>
+  <tr>
+    <td><b>api:</b>&nbsp;&nbsp;</td><td></td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodremoveEventListener"></a>
+	<h3>method removeEventListener <span class="smalllinenumber">[line 126]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void removeEventListener(
+<a href="../../phpcr/interfaces/EventListenerInterface.html">EventListenerInterface</a>
+\\\$listener, \PHPCR\Observation\EventListenerInterface
+$listener)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Deregisters an event listener.<br /><br /><p>A listener may be deregistered while it is being executed. The deregistration  method will block until the listener has completed executing. An exception to  this rule is a listener which deregisters itself from within the onEvent  method. In this case, the deregistration method returns immediately, but  deregistration will effectively be delayed until the listener completes.</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\RepositoryException if an error occurs.</td>
+  </tr>
+  <tr>
+    <td><b>api:</b>&nbsp;&nbsp;</td><td></td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">\PHPCR\Observation\EventListenerInterface&nbsp;&nbsp;</td>
+        <td><b>$listener</b>&nbsp;&nbsp;</td>
+        <td>The listener to deregister.</td>
+      </tr>
+          <tr>
+        <td class="type"><a href="../../phpcr/interfaces/EventListenerInterface.html">EventListenerInterface</a>&nbsp;&nbsp;</td>
+        <td><b>\\\$listener</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodsetUserData"></a>
+	<h3>method setUserData <span class="smalllinenumber">[line 150]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void setUserData(
+string
+$userData)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Sets the user data information that will be returned by Event.getUserData().<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\RepositoryException if an error occurs</td>
+  </tr>
+  <tr>
+    <td><b>api:</b>&nbsp;&nbsp;</td><td></td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$userData</b>&nbsp;&nbsp;</td>
+        <td>the user data</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+</div><br />
+
+
+        <div class="credit">
+		    <hr />
+		    Documentation generated on Fri, 17 Dec 2010 11:10:18 +0100 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.3</a>
+	      </div>
+      </td></tr></table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

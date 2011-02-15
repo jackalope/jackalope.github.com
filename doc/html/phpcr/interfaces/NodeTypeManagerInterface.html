@@ -1,0 +1,1019 @@
+<html>
+<head>
+<title>Docs For Class NodeTypeManagerInterface</title>
+<link rel="stylesheet" type="text/css" href="../../media/style.css">
+</head>
+<body>
+
+<table border="0" cellspacing="0" cellpadding="0" height="48" width="100%">
+  <tr>
+    <td class="header_top">phpcr</td>
+  </tr>
+  <tr><td class="header_line"><img src="../../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+  <tr>
+    <td class="header_menu">
+        
+                                    
+                              		  [ <a href="../../classtrees_phpcr.html" class="menu">class tree: phpcr</a> ]
+		  [ <a href="../../elementindex_phpcr.html" class="menu">index: phpcr</a> ]
+		  	    [ <a href="../../elementindex.html" class="menu">all elements</a> ]
+    </td>
+  </tr>
+  <tr><td class="header_line"><img src="../../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+</table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="200" class="menu">
+	<div id="todolist">
+			<p><a href="../../todolist.html">Todo List</a></p>
+	</div>
+      <b>Packages:</b><br />
+              <a href="../../li_phpcr.html">phpcr</a><br />
+            <br /><br />
+                        <b>Files:</b><br />
+      	  <div class="package">
+			<a href="../../phpcr/_PropertyType.php.html">		PropertyType.php
+		</a><br>
+			<a href="../../phpcr/_SimpleCredentials.php.html">		SimpleCredentials.php
+		</a><br>
+	  </div><br />
+	subpackage <b>exceptions</b><br>  <div class="package">
+			<a href="../../phpcr/exceptions/_AccessDeniedException.php.html">		AccessDeniedException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_Version---ActivityViolationException.php.html">		ActivityViolationException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_NodeType---ConstraintViolationException.php.html">		ConstraintViolationException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_InvalidItemStateException.php.html">		InvalidItemStateException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_InvalidLifecycleTransitionException.php.html">		InvalidLifecycleTransitionException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_NodeType---InvalidNodeTypeDefinitionException.php.html">		InvalidNodeTypeDefinitionException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_Query---InvalidQueryException.php.html">		InvalidQueryException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_InvalidSerializedDataException.php.html">		InvalidSerializedDataException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_ItemExistsException.php.html">		ItemExistsException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_ItemNotFoundException.php.html">		ItemNotFoundException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_Version---LabelExistsVersionException.php.html">		LabelExistsVersionException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_Lock---LockException.php.html">		LockException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_LoginException.php.html">		LoginException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_MergeException.php.html">		MergeException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_NamespaceException.php.html">		NamespaceException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_NodeType---NodeTypeExistsException.php.html">		NodeTypeExistsException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_NodeType---NoSuchNodeTypeException.php.html">		NoSuchNodeTypeException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_NoSuchWorkspaceException.php.html">		NoSuchWorkspaceException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_PathNotFoundException.php.html">		PathNotFoundException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_ReferentialIntegrityException.php.html">		ReferentialIntegrityException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_RepositoryException.php.html">		RepositoryException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_UnsupportedRepositoryOperationException.php.html">		UnsupportedRepositoryOperationException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_ValueFormatException.php.html">		ValueFormatException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_Version---VersionException.php.html">		VersionException.php
+		</a><br>
+	  </div><br />
+	subpackage <b>interfaces</b><br>  <div class="package">
+			<a href="../../phpcr/interfaces/_Security---AccessControlEntryInterface.php.html">		AccessControlEntryInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Security---AccessControlException.php.html">		AccessControlException.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Security---AccessControlListInterface.php.html">		AccessControlListInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Security---AccessControlManagerInterface.php.html">		AccessControlManagerInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Security---AccessControlPolicyInterface.php.html">		AccessControlPolicyInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---AndInterface.php.html">		AndInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_BinaryInterface.php.html">		BinaryInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---BindVariableValueInterface.php.html">		BindVariableValueInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---ChildNodeInterface.php.html">		ChildNodeInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---ChildNodeJoinConditionInterface.php.html">		ChildNodeJoinConditionInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---ColumnInterface.php.html">		ColumnInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---ComparisonInterface.php.html">		ComparisonInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---ConstraintInterface.php.html">		ConstraintInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_ContentHandlerInterface.php.html">		ContentHandlerInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_CredentialsInterface.php.html">		CredentialsInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---DescendantNodeInterface.php.html">		DescendantNodeInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---DescendantNodeJoinConditionInterface.php.html">		DescendantNodeJoinConditionInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---DynamicOperandInterface.php.html">		DynamicOperandInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---EquiJoinConditionInterface.php.html">		EquiJoinConditionInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Observation---EventInterface.php.html">		EventInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Observation---EventJournalInterface.php.html">		EventJournalInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Observation---EventListenerInterface.php.html">		EventListenerInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---FullTextSearchInterface.php.html">		FullTextSearchInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---FullTextSearchScoreInterface.php.html">		FullTextSearchScoreInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Retention---HoldInterface.php.html">		HoldInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_ImportUUIDBehaviourInterface.php.html">		ImportUUIDBehaviourInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_NodeType---ItemDefinitionInterface.php.html">		ItemDefinitionInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_ItemInterface.php.html">		ItemInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_ItemVisitorInterface.php.html">		ItemVisitorInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---JoinConditionInterface.php.html">		JoinConditionInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---JoinInterface.php.html">		JoinInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---LengthInterface.php.html">		LengthInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---LiteralInterface.php.html">		LiteralInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Lock---LockInterface.php.html">		LockInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Lock---LockManagerInterface.php.html">		LockManagerInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---LowerCaseInterface.php.html">		LowerCaseInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Security---NamedAccessControlPolicyInterface.php.html">		NamedAccessControlPolicyInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_NamespaceRegistryInterface.php.html">		NamespaceRegistryInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_NodeType---NodeDefinitionInterface.php.html">		NodeDefinitionInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_NodeType---NodeDefinitionTemplateInterface.php.html">		NodeDefinitionTemplateInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_NodeInterface.php.html">		NodeInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---NodeLocalNameInterface.php.html">		NodeLocalNameInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---NodeNameInterface.php.html">		NodeNameInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_NodeType---NodeTypeDefinitionInterface.php.html">		NodeTypeDefinitionInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_NodeType---NodeTypeInterface.php.html">		NodeTypeInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_NodeType---NodeTypeManagerInterface.php.html">		NodeTypeManagerInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_NodeType---NodeTypeTemplateInterface.php.html">		NodeTypeTemplateInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---NotInterface.php.html">		NotInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Observation---ObservationManagerInterface.php.html">		ObservationManagerInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Version---OnParentVersionAction.php.html">		OnParentVersionAction.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---OperandInterface.php.html">		OperandInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---OrderingInterface.php.html">		OrderingInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---OrInterface.php.html">		OrInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Security---PrivilegeInterface.php.html">		PrivilegeInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_NodeType---PropertyDefinitionInterface.php.html">		PropertyDefinitionInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_NodeType---PropertyDefinitionTemplateInterface.php.html">		PropertyDefinitionTemplateInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---PropertyExistenceInterface.php.html">		PropertyExistenceInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_PropertyInterface.php.html">		PropertyInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---PropertyValueInterface.php.html">		PropertyValueInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QueryInterface.php.html">		QueryInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QueryManagerInterface.php.html">		QueryManagerInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---QueryObjectModelConstantsInterface.php.html">		QueryObjectModelConstantsInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---QueryObjectModelFactoryInterface.php.html">		QueryObjectModelFactoryInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---QueryObjectModelInterface.php.html">		QueryObjectModelInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QueryResultInterface.php.html">		QueryResultInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_RepositoryFactoryInterface.php.html">		RepositoryFactoryInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_RepositoryInterface.php.html">		RepositoryInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Retention---RetentionManagerInterface.php.html">		RetentionManagerInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Retention---RetentionPolicyInterface.php.html">		RetentionPolicyInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---RowInterface.php.html">		RowInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---SameNodeInterface.php.html">		SameNodeInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---SameNodeJoinConditionInterface.php.html">		SameNodeJoinConditionInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---SelectorInterface.php.html">		SelectorInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_SessionInterface.php.html">		SessionInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---SourceInterface.php.html">		SourceInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---StaticOperandInterface.php.html">		StaticOperandInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Util---TraversingItemVisitor.php.html">		TraversingItemVisitor.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---UpperCaseInterface.php.html">		UpperCaseInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Version---VersionHistoryInterface.php.html">		VersionHistoryInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Version---VersionInterface.php.html">		VersionInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Version---VersionManagerInterface.php.html">		VersionManagerInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_WorkspaceInterface.php.html">		WorkspaceInterface.php
+		</a><br>
+	  </div><br />
+	subpackage <b>prototypes</b><br>  <div class="package">
+			<a href="../../phpcr/prototypes/_GuestCredentials.php.html">		GuestCredentials.php
+		</a><br>
+	  </div><br />
+      
+            <b>Interfaces:</b><br />
+        <div class="package">
+	interfaces<br />	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/AccessControlEntryInterface.html">AccessControlEntryInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/AccessControlListInterface.html">AccessControlListInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/AccessControlManagerInterface.html">AccessControlManagerInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/AccessControlPolicyInterface.html">AccessControlPolicyInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/AndInterface.html">AndInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/BinaryInterface.html">BinaryInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/BindVariableValueInterface.html">BindVariableValueInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/ChildNodeInterface.html">ChildNodeInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/ChildNodeJoinConditionInterface.html">ChildNodeJoinConditionInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/ColumnInterface.html">ColumnInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/ComparisonInterface.html">ComparisonInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/ConstraintInterface.html">ConstraintInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/ContentHandlerInterface.html">ContentHandlerInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/CredentialsInterface.html">CredentialsInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/DescendantNodeInterface.html">DescendantNodeInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/DescendantNodeJoinConditionInterface.html">DescendantNodeJoinConditionInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/DynamicOperandInterface.html">DynamicOperandInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/EquiJoinConditionInterface.html">EquiJoinConditionInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/EventInterface.html">EventInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/EventJournalInterface.html">EventJournalInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/EventListenerInterface.html">EventListenerInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/FullTextSearchInterface.html">FullTextSearchInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/FullTextSearchScoreInterface.html">FullTextSearchScoreInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/HoldInterface.html">HoldInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/ImportUUIDBehaviourInterface.html">ImportUUIDBehaviourInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/ItemDefinitionInterface.html">ItemDefinitionInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/ItemInterface.html">ItemInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/ItemVisitorInterface.html">ItemVisitorInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/JoinConditionInterface.html">JoinConditionInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/JoinInterface.html">JoinInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/LengthInterface.html">LengthInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/LiteralInterface.html">LiteralInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/LockInterface.html">LockInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/LockManagerInterface.html">LockManagerInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/LowerCaseInterface.html">LowerCaseInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NamedAccessControlPolicyInterface.html">NamedAccessControlPolicyInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NamespaceRegistryInterface.html">NamespaceRegistryInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NodeDefinitionInterface.html">NodeDefinitionInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NodeDefinitionTemplateInterface.html">NodeDefinitionTemplateInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NodeInterface.html">NodeInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NodeLocalNameInterface.html">NodeLocalNameInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NodeNameInterface.html">NodeNameInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NodeTypeDefinitionInterface.html">NodeTypeDefinitionInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NodeTypeInterface.html">NodeTypeInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NodeTypeManagerInterface.html">NodeTypeManagerInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NodeTypeTemplateInterface.html">NodeTypeTemplateInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NotInterface.html">NotInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/ObservationManagerInterface.html">ObservationManagerInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/OperandInterface.html">OperandInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/OrderingInterface.html">OrderingInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/OrInterface.html">OrInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/PrivilegeInterface.html">PrivilegeInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/PropertyDefinitionInterface.html">PropertyDefinitionInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/PropertyDefinitionTemplateInterface.html">PropertyDefinitionTemplateInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/PropertyExistenceInterface.html">PropertyExistenceInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/PropertyInterface.html">PropertyInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/PropertyValueInterface.html">PropertyValueInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/QueryInterface.html">QueryInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/QueryManagerInterface.html">QueryManagerInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/QueryObjectModelConstantsInterface.html">QueryObjectModelConstantsInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/QueryObjectModelFactoryInterface.html">QueryObjectModelFactoryInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/QueryObjectModelInterface.html">QueryObjectModelInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/QueryResultInterface.html">QueryResultInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/RepositoryFactoryInterface.html">RepositoryFactoryInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/RepositoryInterface.html">RepositoryInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/RetentionManagerInterface.html">RetentionManagerInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/RetentionPolicyInterface.html">RetentionPolicyInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/RowInterface.html">RowInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/SameNodeInterface.html">SameNodeInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/SameNodeJoinConditionInterface.html">SameNodeJoinConditionInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/SelectorInterface.html">SelectorInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/SessionInterface.html">SessionInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/SourceInterface.html">SourceInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/StaticOperandInterface.html">StaticOperandInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/UpperCaseInterface.html">UpperCaseInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/VersionHistoryInterface.html">VersionHistoryInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/VersionInterface.html">VersionInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/VersionManagerInterface.html">VersionManagerInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/WorkspaceInterface.html">WorkspaceInterface</a><br />
+	  </div>
+      
+            <b>Classes:</b><br />
+        <div class="package">
+	interfaces<br />	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/AccessControlException.html">AccessControlException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/OnParentVersionAction.html">OnParentVersionAction</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/TraversingItemVisitor.html">TraversingItemVisitor</a><br />
+	  </div>
+  <div class="package">
+	exceptions<br />	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/AccessDeniedException.html">AccessDeniedException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/ActivityViolationException.html">ActivityViolationException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/ConstraintViolationException.html">ConstraintViolationException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/InvalidItemStateException.html">InvalidItemStateException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/InvalidLifecycleTransitionException.html">InvalidLifecycleTransitionException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/InvalidNodeTypeDefinitionException.html">InvalidNodeTypeDefinitionException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/InvalidQueryException.html">InvalidQueryException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/InvalidSerializedDataException.html">InvalidSerializedDataException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/ItemExistsException.html">ItemExistsException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/ItemNotFoundException.html">ItemNotFoundException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/LabelExistsVersionException.html">LabelExistsVersionException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/LockException.html">LockException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/LoginException.html">LoginException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/MergeException.html">MergeException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/NamespaceException.html">NamespaceException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/NodeTypeExistsException.html">NodeTypeExistsException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/NoSuchNodeTypeException.html">NoSuchNodeTypeException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/NoSuchWorkspaceException.html">NoSuchWorkspaceException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/PathNotFoundException.html">PathNotFoundException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/ReferentialIntegrityException.html">ReferentialIntegrityException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/RepositoryException.html">RepositoryException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/UnsupportedRepositoryOperationException.html">UnsupportedRepositoryOperationException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/ValueFormatException.html">ValueFormatException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/VersionException.html">VersionException</a><br />
+	  </div>
+  <div class="package">
+	prototypes<br />	    &nbsp;&nbsp;		<a href="../../phpcr/prototypes/GuestCredentials.html">GuestCredentials</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/prototypes/SimpleCredentials.html">SimpleCredentials</a><br />
+	  </div>
+  <div class="package">
+		    		<a href="../../phpcr/PropertyType.html">PropertyType</a><br />
+	  </div>
+                </td>
+    <td>
+      <table cellpadding="10" cellspacing="0" width="100%" border="0"><tr><td valign="top">
+
+<h1>Class: NodeTypeManagerInterface</h1>
+Source Location: /NodeType/NodeTypeManagerInterface.php<br /><br />
+
+
+<table width="100%" border="0">
+<tr><td valign="top">
+
+<h3><a href="#class_details">Interface Overview</a></h3>
+<pre>\
+   |
+   --NodeTypeManagerInterface</pre><br />
+<div class="description">Allows for the retrieval and (in implementations that support it) the  registration of node types. Accessed via Workspace.getNodeTypeManager().</div><br /><br />
+<h4>Author(s):</h4>
+<ul>
+        </ul>
+
+
+
+
+    
+
+        
+</td>
+
+
+
+<td valign="top">
+<h3><a href="#class_methods">Methods</a></h3>
+<ul>
+    <li><a href="../../phpcr/interfaces/NodeTypeManagerInterface.html#methodcreateNodeDefinitionTemplate">createNodeDefinitionTemplate</a></li>
+    <li><a href="../../phpcr/interfaces/NodeTypeManagerInterface.html#methodcreateNodeTypeTemplate">createNodeTypeTemplate</a></li>
+    <li><a href="../../phpcr/interfaces/NodeTypeManagerInterface.html#methodcreatePropertyDefinitionTemplate">createPropertyDefinitionTemplate</a></li>
+    <li><a href="../../phpcr/interfaces/NodeTypeManagerInterface.html#methodgetAllNodeTypes">getAllNodeTypes</a></li>
+    <li><a href="../../phpcr/interfaces/NodeTypeManagerInterface.html#methodgetMixinNodeTypes">getMixinNodeTypes</a></li>
+    <li><a href="../../phpcr/interfaces/NodeTypeManagerInterface.html#methodgetNodeType">getNodeType</a></li>
+    <li><a href="../../phpcr/interfaces/NodeTypeManagerInterface.html#methodgetPrimaryNodeTypes">getPrimaryNodeTypes</a></li>
+    <li><a href="../../phpcr/interfaces/NodeTypeManagerInterface.html#methodhasNodeType">hasNodeType</a></li>
+    <li><a href="../../phpcr/interfaces/NodeTypeManagerInterface.html#methodregisterNodeType">registerNodeType</a></li>
+    <li><a href="../../phpcr/interfaces/NodeTypeManagerInterface.html#methodregisterNodeTypes">registerNodeTypes</a></li>
+    <li><a href="../../phpcr/interfaces/NodeTypeManagerInterface.html#methodunregisterNodeType">unregisterNodeType</a></li>
+    <li><a href="../../phpcr/interfaces/NodeTypeManagerInterface.html#methodunregisterNodeTypes">unregisterNodeTypes</a></li>
+  </ul>
+</td>
+
+</tr></table>
+<hr />
+
+<table width="100%" border="0"><tr>
+
+
+
+
+
+
+</tr></table>
+<hr />
+
+<a name="class_details"></a>
+<h3>Class Details</h3>
+<div class="tags">
+[line 49]<br />
+Allows for the retrieval and (in implementations that support it) the  registration of node types. Accessed via Workspace.getNodeTypeManager().<br /><br /><p>The \Traversable interface enables the implementation to be addressed with  <strong>foreach</strong>. NodeTypeManager has to implement either \RecursiveIterator  or \Iterator.  The iterator is equivalent to <strong>getAllNodeTypes()</strong> returning a list of  all node types. The iterator keys have no significant meaning.</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>api:</b>&nbsp;&nbsp;</td><td></td>
+  </tr>
+</table>
+</div>
+</div><br /><br />
+<div class="top">[ <a href="#top">Top</a> ]</div><br />
+
+
+<hr />
+<a name="class_methods"></a>
+<h3>Class Methods</h3>
+<div class="tags">
+
+  <hr />
+	<a name="methodcreateNodeDefinitionTemplate"></a>
+	<h3>method createNodeDefinitionTemplate <span class="smalllinenumber">[line 141]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>\PHPCR\NodeType\NodeDefinitionTemplateInterface createNodeDefinitionTemplate(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Returns an empty NodeDefinitionTemplate which can then be used to create a  child node definition and attached to a NodeTypeTemplate.<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>A NodeDefinitionTemplate.</td>
+  </tr>
+  <tr>
+    <td><b>api:</b>&nbsp;&nbsp;</td><td></td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\UnsupportedRepositoryOperationException if this implementation does not support                                                         node type registration.</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\RepositoryException if another error occurs.</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodcreateNodeTypeTemplate"></a>
+	<h3>method createNodeTypeTemplate <span class="smalllinenumber">[line 128]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>\PHPCR\NodeType\NodeTypeTemplateInterface createNodeTypeTemplate(
+[\PHPCR\NodeType\NodeTypeDefinitionInterface
+$ntd = NULL])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Returns an empty NodeTypeTemplate which can then be used to define a node type  and passed to NodeTypeManager.registerNodeType.<br /><br /><p>If <strong>$ntd</strong> is given:  Returns a NodeTypeTemplate holding the specified node type definition. This  template can then be altered and passed to NodeTypeManager.registerNodeType.</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>A NodeTypeTemplate.</td>
+  </tr>
+  <tr>
+    <td><b>api:</b>&nbsp;&nbsp;</td><td></td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\UnsupportedRepositoryOperationException if this implementation does not support                                                         node type registration.</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\RepositoryException if another error occurs.</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">\PHPCR\NodeType\NodeTypeDefinitionInterface&nbsp;&nbsp;</td>
+        <td><b>$ntd</b>&nbsp;&nbsp;</td>
+        <td>a NodeTypeDefinition.</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodcreatePropertyDefinitionTemplate"></a>
+	<h3>method createPropertyDefinitionTemplate <span class="smalllinenumber">[line 154]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>\PHPCR\NodeType\PropertyDefinitionTemplateInterface createPropertyDefinitionTemplate(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Returns an empty PropertyDefinitionTemplate which can then be used to create  a property definition and attached to a NodeTypeTemplate.<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>A PropertyDefinitionTemplate.</td>
+  </tr>
+  <tr>
+    <td><b>api:</b>&nbsp;&nbsp;</td><td></td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\UnsupportedRepositoryOperationException if this implementation does not support                                                         node type registration.</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\RepositoryException if another error occurs.</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetAllNodeTypes"></a>
+	<h3>method getAllNodeTypes <span class="smalllinenumber">[line 86]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>Iterator getAllNodeTypes(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Returns an iterator over all available node types (primary and mixin).<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>implementing <strong>SeekableIterator</strong> and <strong>Countable</strong>. Keys are the node type names,                   values the corresponding NodeTypeInterface instances.</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\RepositoryException if an error occurs.</td>
+  </tr>
+  <tr>
+    <td><b>api:</b>&nbsp;&nbsp;</td><td></td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetMixinNodeTypes"></a>
+	<h3>method getMixinNodeTypes <span class="smalllinenumber">[line 110]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>Iterator getMixinNodeTypes(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Returns an iterator over all available mixin node types.<br /><br /><p>If none are available, an empty iterator is returned.</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>implementing <strong>SeekableIterator</strong> and <strong>Countable</strong>. Keys are the node type names,                   values the corresponding NodeTypeInterface instances.</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\RepositoryException if an error occurs.</td>
+  </tr>
+  <tr>
+    <td><b>api:</b>&nbsp;&nbsp;</td><td></td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetNodeType"></a>
+	<h3>method getNodeType <span class="smalllinenumber">[line 61]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>\PHPCR\NodeType\NodeTypeInterface getNodeType(
+string
+$nodeTypeName)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Returns the named node type.<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>A NodeType object.</td>
+  </tr>
+  <tr>
+    <td><b>api:</b>&nbsp;&nbsp;</td><td></td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\NodeType\NoSuchNodeTypeException if no node type by the given name exists.</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\RepositoryException if another error occurs.</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$nodeTypeName</b>&nbsp;&nbsp;</td>
+        <td>the name of an existing node type.</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetPrimaryNodeTypes"></a>
+	<h3>method getPrimaryNodeTypes <span class="smalllinenumber">[line 97]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>Iterator getPrimaryNodeTypes(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Returns an iterator over all available primary node types.<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>implementing <strong>SeekableIterator</strong> and <strong>Countable</strong>. Keys are the node type names,                   values the corresponding NodeTypeInterface instances.</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\RepositoryException if an error occurs.</td>
+  </tr>
+  <tr>
+    <td><b>api:</b>&nbsp;&nbsp;</td><td></td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodhasNodeType"></a>
+	<h3>method hasNodeType <span class="smalllinenumber">[line 75]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>boolean hasNodeType(
+string
+$name)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Determines if the given node type is registered.<br /><br /><p>Returns true if a node type with the specified name is registered. Returns  false otherwise.</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>True, if the node type identified by its name is registered, else false.</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\RepositoryException if an error occurs.</td>
+  </tr>
+  <tr>
+    <td><b>api:</b>&nbsp;&nbsp;</td><td></td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$name</b>&nbsp;&nbsp;</td>
+        <td>The name of node type.</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodregisterNodeType"></a>
+	<h3>method registerNodeType <span class="smalllinenumber">[line 176]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>\PHPCR\NodeType\NodeTypeInterface registerNodeType(
+<a href="../../phpcr/interfaces/NodeTypeDefinitionInterface.html">NodeTypeDefinitionInterface</a>
+\\\$ntd, boolean
+$allowUpdate, \PHPCR\NodeType\NodeTypeDefinitionInterface
+$ntd)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Registers a new node type or updates an existing node type using the specified  definition and returns the resulting NodeType object.<br /><br /><p>Typically, the object passed to this method will be a NodeTypeTemplate (a  subclass of NodeTypeDefinition) acquired from NodeTypeManager.createNodeTypeTemplate  and then filled-in with definition information.</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>the registered node type</td>
+  </tr>
+  <tr>
+    <td><b>api:</b>&nbsp;&nbsp;</td><td></td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\InvalidNodeTypeDefinitionException if the NodeTypeDefinition is invalid.</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\NodeType\NodeTypeExistsException if allowUpdate is false and the NodeTypeDefinition                                                  specifies a node type name that is already registered.</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\RepositoryException if another error occurs.</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\UnsupportedRepositoryOperationException if this implementation does not support                                                         node type registration.</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">\PHPCR\NodeType\NodeTypeDefinitionInterface&nbsp;&nbsp;</td>
+        <td><b>$ntd</b>&nbsp;&nbsp;</td>
+        <td>an NodeTypeDefinition.</td>
+      </tr>
+          <tr>
+        <td class="type">boolean&nbsp;&nbsp;</td>
+        <td><b>$allowUpdate</b>&nbsp;&nbsp;</td>
+        <td>Switch to allow the update a registered node type.</td>
+      </tr>
+          <tr>
+        <td class="type"><a href="../../phpcr/interfaces/NodeTypeDefinitionInterface.html">NodeTypeDefinitionInterface</a>&nbsp;&nbsp;</td>
+        <td><b>\\\$ntd</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodregisterNodeTypes"></a>
+	<h3>method registerNodeTypes <span class="smalllinenumber">[line 202]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>Iterator registerNodeTypes(
+
+$definitions, boolean
+$allowUpdate)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Registers or updates the specified array of NodeTypeDefinition objects.<br /><br /><p>This method is used to register or update a set of node types with mutual  dependencies. Returns an iterator over the resulting NodeType objects.  The effect of the method is &quot;all or nothing&quot;; if an error occurs, no node  types are registered or updated.</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>over the registered node types implementing <strong>SeekableIterator</strong> and <strong>Countable</strong>.                   Keys are the node type names, values the corresponding NodeTypeInterface instances.</td>
+  </tr>
+  <tr>
+    <td><b>api:</b>&nbsp;&nbsp;</td><td></td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\InvalidNodeTypeDefinitionException if a NodeTypeDefinition within the Collection is                                                    invalid or if the Collection contains an object of a                                                    type other than NodeTypeDefinition.</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\NodeType\NodeTypeExistsException if allowUpdate is false and a NodeTypeDefinition within                                                  the Collection specifies a node type name that is already                                                  registered.</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\RepositoryException if another error occurs.</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\UnsupportedRepositoryOperationException if this implementation does not support node type                                                         registration.</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">array&nbsp;&nbsp;</td>
+        <td><b>$definitions</b>&nbsp;&nbsp;</td>
+        <td>an array of NodeTypeDefinitions</td>
+      </tr>
+          <tr>
+        <td class="type">boolean&nbsp;&nbsp;</td>
+        <td><b>$allowUpdate</b>&nbsp;&nbsp;</td>
+        <td>Switch to allow the update a registered node type.</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodunregisterNodeType"></a>
+	<h3>method unregisterNodeType <span class="smalllinenumber">[line 216]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void unregisterNodeType(
+string
+$name)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Unregisters the specified node type.<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>api:</b>&nbsp;&nbsp;</td><td></td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\RepositoryException if another error occurs.</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\UnsupportedRepositoryOperationException if this implementation does not                                                         support node type registration.</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\NodeType\NoSuchNodeTypeException if no registered node type exists with the specified name.</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$name</b>&nbsp;&nbsp;</td>
+        <td>The name of the node type to be removed from the registry.</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodunregisterNodeTypes"></a>
+	<h3>method unregisterNodeTypes <span class="smalllinenumber">[line 231]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void unregisterNodeTypes(
+
+$names)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Unregisters the specified set of node types. Used to unregister a set of node  types with mutual dependencies.<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>api:</b>&nbsp;&nbsp;</td><td></td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\RepositoryException if another error occurs.</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\UnsupportedRepositoryOperationException if this implementation does not support                                                         node type registration.</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\NodeType\NoSuchNodeTypeException if one of the names listed is not a registered node type.</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">array&nbsp;&nbsp;</td>
+        <td><b>$names</b>&nbsp;&nbsp;</td>
+        <td>List of node type names to be removed from the registry.</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+</div><br />
+
+
+        <div class="credit">
+		    <hr />
+		    Documentation generated on Fri, 17 Dec 2010 11:10:17 +0100 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.3</a>
+	      </div>
+      </td></tr></table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

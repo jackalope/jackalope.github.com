@@ -1,0 +1,885 @@
+<html>
+<head>
+<title>Docs For Class LockManagerInterface</title>
+<link rel="stylesheet" type="text/css" href="../../media/style.css">
+</head>
+<body>
+
+<table border="0" cellspacing="0" cellpadding="0" height="48" width="100%">
+  <tr>
+    <td class="header_top">phpcr</td>
+  </tr>
+  <tr><td class="header_line"><img src="../../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+  <tr>
+    <td class="header_menu">
+        
+                                    
+                              		  [ <a href="../../classtrees_phpcr.html" class="menu">class tree: phpcr</a> ]
+		  [ <a href="../../elementindex_phpcr.html" class="menu">index: phpcr</a> ]
+		  	    [ <a href="../../elementindex.html" class="menu">all elements</a> ]
+    </td>
+  </tr>
+  <tr><td class="header_line"><img src="../../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+</table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="200" class="menu">
+	<div id="todolist">
+			<p><a href="../../todolist.html">Todo List</a></p>
+	</div>
+      <b>Packages:</b><br />
+              <a href="../../li_phpcr.html">phpcr</a><br />
+            <br /><br />
+                        <b>Files:</b><br />
+      	  <div class="package">
+			<a href="../../phpcr/_PropertyType.php.html">		PropertyType.php
+		</a><br>
+			<a href="../../phpcr/_SimpleCredentials.php.html">		SimpleCredentials.php
+		</a><br>
+	  </div><br />
+	subpackage <b>exceptions</b><br>  <div class="package">
+			<a href="../../phpcr/exceptions/_AccessDeniedException.php.html">		AccessDeniedException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_Version---ActivityViolationException.php.html">		ActivityViolationException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_NodeType---ConstraintViolationException.php.html">		ConstraintViolationException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_InvalidItemStateException.php.html">		InvalidItemStateException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_InvalidLifecycleTransitionException.php.html">		InvalidLifecycleTransitionException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_NodeType---InvalidNodeTypeDefinitionException.php.html">		InvalidNodeTypeDefinitionException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_Query---InvalidQueryException.php.html">		InvalidQueryException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_InvalidSerializedDataException.php.html">		InvalidSerializedDataException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_ItemExistsException.php.html">		ItemExistsException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_ItemNotFoundException.php.html">		ItemNotFoundException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_Version---LabelExistsVersionException.php.html">		LabelExistsVersionException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_Lock---LockException.php.html">		LockException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_LoginException.php.html">		LoginException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_MergeException.php.html">		MergeException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_NamespaceException.php.html">		NamespaceException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_NodeType---NodeTypeExistsException.php.html">		NodeTypeExistsException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_NodeType---NoSuchNodeTypeException.php.html">		NoSuchNodeTypeException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_NoSuchWorkspaceException.php.html">		NoSuchWorkspaceException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_PathNotFoundException.php.html">		PathNotFoundException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_ReferentialIntegrityException.php.html">		ReferentialIntegrityException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_RepositoryException.php.html">		RepositoryException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_UnsupportedRepositoryOperationException.php.html">		UnsupportedRepositoryOperationException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_ValueFormatException.php.html">		ValueFormatException.php
+		</a><br>
+			<a href="../../phpcr/exceptions/_Version---VersionException.php.html">		VersionException.php
+		</a><br>
+	  </div><br />
+	subpackage <b>interfaces</b><br>  <div class="package">
+			<a href="../../phpcr/interfaces/_Security---AccessControlEntryInterface.php.html">		AccessControlEntryInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Security---AccessControlException.php.html">		AccessControlException.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Security---AccessControlListInterface.php.html">		AccessControlListInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Security---AccessControlManagerInterface.php.html">		AccessControlManagerInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Security---AccessControlPolicyInterface.php.html">		AccessControlPolicyInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---AndInterface.php.html">		AndInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_BinaryInterface.php.html">		BinaryInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---BindVariableValueInterface.php.html">		BindVariableValueInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---ChildNodeInterface.php.html">		ChildNodeInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---ChildNodeJoinConditionInterface.php.html">		ChildNodeJoinConditionInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---ColumnInterface.php.html">		ColumnInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---ComparisonInterface.php.html">		ComparisonInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---ConstraintInterface.php.html">		ConstraintInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_ContentHandlerInterface.php.html">		ContentHandlerInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_CredentialsInterface.php.html">		CredentialsInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---DescendantNodeInterface.php.html">		DescendantNodeInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---DescendantNodeJoinConditionInterface.php.html">		DescendantNodeJoinConditionInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---DynamicOperandInterface.php.html">		DynamicOperandInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---EquiJoinConditionInterface.php.html">		EquiJoinConditionInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Observation---EventInterface.php.html">		EventInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Observation---EventJournalInterface.php.html">		EventJournalInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Observation---EventListenerInterface.php.html">		EventListenerInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---FullTextSearchInterface.php.html">		FullTextSearchInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---FullTextSearchScoreInterface.php.html">		FullTextSearchScoreInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Retention---HoldInterface.php.html">		HoldInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_ImportUUIDBehaviourInterface.php.html">		ImportUUIDBehaviourInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_NodeType---ItemDefinitionInterface.php.html">		ItemDefinitionInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_ItemInterface.php.html">		ItemInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_ItemVisitorInterface.php.html">		ItemVisitorInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---JoinConditionInterface.php.html">		JoinConditionInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---JoinInterface.php.html">		JoinInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---LengthInterface.php.html">		LengthInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---LiteralInterface.php.html">		LiteralInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Lock---LockInterface.php.html">		LockInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Lock---LockManagerInterface.php.html">		LockManagerInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---LowerCaseInterface.php.html">		LowerCaseInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Security---NamedAccessControlPolicyInterface.php.html">		NamedAccessControlPolicyInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_NamespaceRegistryInterface.php.html">		NamespaceRegistryInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_NodeType---NodeDefinitionInterface.php.html">		NodeDefinitionInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_NodeType---NodeDefinitionTemplateInterface.php.html">		NodeDefinitionTemplateInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_NodeInterface.php.html">		NodeInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---NodeLocalNameInterface.php.html">		NodeLocalNameInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---NodeNameInterface.php.html">		NodeNameInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_NodeType---NodeTypeDefinitionInterface.php.html">		NodeTypeDefinitionInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_NodeType---NodeTypeInterface.php.html">		NodeTypeInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_NodeType---NodeTypeManagerInterface.php.html">		NodeTypeManagerInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_NodeType---NodeTypeTemplateInterface.php.html">		NodeTypeTemplateInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---NotInterface.php.html">		NotInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Observation---ObservationManagerInterface.php.html">		ObservationManagerInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Version---OnParentVersionAction.php.html">		OnParentVersionAction.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---OperandInterface.php.html">		OperandInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---OrderingInterface.php.html">		OrderingInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---OrInterface.php.html">		OrInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Security---PrivilegeInterface.php.html">		PrivilegeInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_NodeType---PropertyDefinitionInterface.php.html">		PropertyDefinitionInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_NodeType---PropertyDefinitionTemplateInterface.php.html">		PropertyDefinitionTemplateInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---PropertyExistenceInterface.php.html">		PropertyExistenceInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_PropertyInterface.php.html">		PropertyInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---PropertyValueInterface.php.html">		PropertyValueInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QueryInterface.php.html">		QueryInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QueryManagerInterface.php.html">		QueryManagerInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---QueryObjectModelConstantsInterface.php.html">		QueryObjectModelConstantsInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---QueryObjectModelFactoryInterface.php.html">		QueryObjectModelFactoryInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---QueryObjectModelInterface.php.html">		QueryObjectModelInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QueryResultInterface.php.html">		QueryResultInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_RepositoryFactoryInterface.php.html">		RepositoryFactoryInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_RepositoryInterface.php.html">		RepositoryInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Retention---RetentionManagerInterface.php.html">		RetentionManagerInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Retention---RetentionPolicyInterface.php.html">		RetentionPolicyInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---RowInterface.php.html">		RowInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---SameNodeInterface.php.html">		SameNodeInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---SameNodeJoinConditionInterface.php.html">		SameNodeJoinConditionInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---SelectorInterface.php.html">		SelectorInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_SessionInterface.php.html">		SessionInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---SourceInterface.php.html">		SourceInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---StaticOperandInterface.php.html">		StaticOperandInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Util---TraversingItemVisitor.php.html">		TraversingItemVisitor.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Query---QOM---UpperCaseInterface.php.html">		UpperCaseInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Version---VersionHistoryInterface.php.html">		VersionHistoryInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Version---VersionInterface.php.html">		VersionInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_Version---VersionManagerInterface.php.html">		VersionManagerInterface.php
+		</a><br>
+			<a href="../../phpcr/interfaces/_WorkspaceInterface.php.html">		WorkspaceInterface.php
+		</a><br>
+	  </div><br />
+	subpackage <b>prototypes</b><br>  <div class="package">
+			<a href="../../phpcr/prototypes/_GuestCredentials.php.html">		GuestCredentials.php
+		</a><br>
+	  </div><br />
+      
+            <b>Interfaces:</b><br />
+        <div class="package">
+	interfaces<br />	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/AccessControlEntryInterface.html">AccessControlEntryInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/AccessControlListInterface.html">AccessControlListInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/AccessControlManagerInterface.html">AccessControlManagerInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/AccessControlPolicyInterface.html">AccessControlPolicyInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/AndInterface.html">AndInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/BinaryInterface.html">BinaryInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/BindVariableValueInterface.html">BindVariableValueInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/ChildNodeInterface.html">ChildNodeInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/ChildNodeJoinConditionInterface.html">ChildNodeJoinConditionInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/ColumnInterface.html">ColumnInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/ComparisonInterface.html">ComparisonInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/ConstraintInterface.html">ConstraintInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/ContentHandlerInterface.html">ContentHandlerInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/CredentialsInterface.html">CredentialsInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/DescendantNodeInterface.html">DescendantNodeInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/DescendantNodeJoinConditionInterface.html">DescendantNodeJoinConditionInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/DynamicOperandInterface.html">DynamicOperandInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/EquiJoinConditionInterface.html">EquiJoinConditionInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/EventInterface.html">EventInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/EventJournalInterface.html">EventJournalInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/EventListenerInterface.html">EventListenerInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/FullTextSearchInterface.html">FullTextSearchInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/FullTextSearchScoreInterface.html">FullTextSearchScoreInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/HoldInterface.html">HoldInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/ImportUUIDBehaviourInterface.html">ImportUUIDBehaviourInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/ItemDefinitionInterface.html">ItemDefinitionInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/ItemInterface.html">ItemInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/ItemVisitorInterface.html">ItemVisitorInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/JoinConditionInterface.html">JoinConditionInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/JoinInterface.html">JoinInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/LengthInterface.html">LengthInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/LiteralInterface.html">LiteralInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/LockInterface.html">LockInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/LockManagerInterface.html">LockManagerInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/LowerCaseInterface.html">LowerCaseInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NamedAccessControlPolicyInterface.html">NamedAccessControlPolicyInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NamespaceRegistryInterface.html">NamespaceRegistryInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NodeDefinitionInterface.html">NodeDefinitionInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NodeDefinitionTemplateInterface.html">NodeDefinitionTemplateInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NodeInterface.html">NodeInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NodeLocalNameInterface.html">NodeLocalNameInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NodeNameInterface.html">NodeNameInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NodeTypeDefinitionInterface.html">NodeTypeDefinitionInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NodeTypeInterface.html">NodeTypeInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NodeTypeManagerInterface.html">NodeTypeManagerInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NodeTypeTemplateInterface.html">NodeTypeTemplateInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/NotInterface.html">NotInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/ObservationManagerInterface.html">ObservationManagerInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/OperandInterface.html">OperandInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/OrderingInterface.html">OrderingInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/OrInterface.html">OrInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/PrivilegeInterface.html">PrivilegeInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/PropertyDefinitionInterface.html">PropertyDefinitionInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/PropertyDefinitionTemplateInterface.html">PropertyDefinitionTemplateInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/PropertyExistenceInterface.html">PropertyExistenceInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/PropertyInterface.html">PropertyInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/PropertyValueInterface.html">PropertyValueInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/QueryInterface.html">QueryInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/QueryManagerInterface.html">QueryManagerInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/QueryObjectModelConstantsInterface.html">QueryObjectModelConstantsInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/QueryObjectModelFactoryInterface.html">QueryObjectModelFactoryInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/QueryObjectModelInterface.html">QueryObjectModelInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/QueryResultInterface.html">QueryResultInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/RepositoryFactoryInterface.html">RepositoryFactoryInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/RepositoryInterface.html">RepositoryInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/RetentionManagerInterface.html">RetentionManagerInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/RetentionPolicyInterface.html">RetentionPolicyInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/RowInterface.html">RowInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/SameNodeInterface.html">SameNodeInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/SameNodeJoinConditionInterface.html">SameNodeJoinConditionInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/SelectorInterface.html">SelectorInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/SessionInterface.html">SessionInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/SourceInterface.html">SourceInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/StaticOperandInterface.html">StaticOperandInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/UpperCaseInterface.html">UpperCaseInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/VersionHistoryInterface.html">VersionHistoryInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/VersionInterface.html">VersionInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/VersionManagerInterface.html">VersionManagerInterface</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/WorkspaceInterface.html">WorkspaceInterface</a><br />
+	  </div>
+      
+            <b>Classes:</b><br />
+        <div class="package">
+	interfaces<br />	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/AccessControlException.html">AccessControlException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/OnParentVersionAction.html">OnParentVersionAction</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/interfaces/TraversingItemVisitor.html">TraversingItemVisitor</a><br />
+	  </div>
+  <div class="package">
+	exceptions<br />	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/AccessDeniedException.html">AccessDeniedException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/ActivityViolationException.html">ActivityViolationException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/ConstraintViolationException.html">ConstraintViolationException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/InvalidItemStateException.html">InvalidItemStateException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/InvalidLifecycleTransitionException.html">InvalidLifecycleTransitionException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/InvalidNodeTypeDefinitionException.html">InvalidNodeTypeDefinitionException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/InvalidQueryException.html">InvalidQueryException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/InvalidSerializedDataException.html">InvalidSerializedDataException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/ItemExistsException.html">ItemExistsException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/ItemNotFoundException.html">ItemNotFoundException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/LabelExistsVersionException.html">LabelExistsVersionException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/LockException.html">LockException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/LoginException.html">LoginException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/MergeException.html">MergeException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/NamespaceException.html">NamespaceException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/NodeTypeExistsException.html">NodeTypeExistsException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/NoSuchNodeTypeException.html">NoSuchNodeTypeException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/NoSuchWorkspaceException.html">NoSuchWorkspaceException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/PathNotFoundException.html">PathNotFoundException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/ReferentialIntegrityException.html">ReferentialIntegrityException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/RepositoryException.html">RepositoryException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/UnsupportedRepositoryOperationException.html">UnsupportedRepositoryOperationException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/ValueFormatException.html">ValueFormatException</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/exceptions/VersionException.html">VersionException</a><br />
+	  </div>
+  <div class="package">
+	prototypes<br />	    &nbsp;&nbsp;		<a href="../../phpcr/prototypes/GuestCredentials.html">GuestCredentials</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpcr/prototypes/SimpleCredentials.html">SimpleCredentials</a><br />
+	  </div>
+  <div class="package">
+		    		<a href="../../phpcr/PropertyType.html">PropertyType</a><br />
+	  </div>
+                </td>
+    <td>
+      <table cellpadding="10" cellspacing="0" width="100%" border="0"><tr><td valign="top">
+
+<h1>Class: LockManagerInterface</h1>
+Source Location: /Lock/LockManagerInterface.php<br /><br />
+
+
+<table width="100%" border="0">
+<tr><td valign="top">
+
+<h3><a href="#class_details">Interface Overview</a></h3>
+<pre>\
+   |
+   --LockManagerInterface</pre><br />
+<div class="description">This interface encapsulates methods for the management of locks.</div><br /><br />
+<h4>Author(s):</h4>
+<ul>
+        </ul>
+
+
+
+
+    
+
+        
+</td>
+
+
+
+<td valign="top">
+<h3><a href="#class_methods">Methods</a></h3>
+<ul>
+    <li><a href="../../phpcr/interfaces/LockManagerInterface.html#methodaddLockToken">addLockToken</a></li>
+    <li><a href="../../phpcr/interfaces/LockManagerInterface.html#methodgetLock">getLock</a></li>
+    <li><a href="../../phpcr/interfaces/LockManagerInterface.html#methodgetLockTokens">getLockTokens</a></li>
+    <li><a href="../../phpcr/interfaces/LockManagerInterface.html#methodholdsLock">holdsLock</a></li>
+    <li><a href="../../phpcr/interfaces/LockManagerInterface.html#methodisLocked">isLocked</a></li>
+    <li><a href="../../phpcr/interfaces/LockManagerInterface.html#methodlock">lock</a></li>
+    <li><a href="../../phpcr/interfaces/LockManagerInterface.html#methodremoveLockToken">removeLockToken</a></li>
+    <li><a href="../../phpcr/interfaces/LockManagerInterface.html#methodunlock">unlock</a></li>
+  </ul>
+</td>
+
+</tr></table>
+<hr />
+
+<table width="100%" border="0"><tr>
+
+
+
+
+
+
+</tr></table>
+<hr />
+
+<a name="class_details"></a>
+<h3>Class Details</h3>
+<div class="tags">
+[line 48]<br />
+This interface encapsulates methods for the management of locks.<br /><br /><p>The \Traversable interface enables the implementation to be addressed with  <strong>foreach</strong>. LockManager has to implement either \IteratorAggregate or  \Iterator.  The iterator is equivalent to <strong>getLockTokens()</strong> returning a list of all  locks. The iterator keys have no significant meaning.</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>api:</b>&nbsp;&nbsp;</td><td></td>
+  </tr>
+</table>
+</div>
+</div><br /><br />
+<div class="top">[ <a href="#top">Top</a> ]</div><br />
+
+
+<hr />
+<a name="class_methods"></a>
+<h3>Class Methods</h3>
+<div class="tags">
+
+  <hr />
+	<a name="methodaddLockToken"></a>
+	<h3>method addLockToken <span class="smalllinenumber">[line 64]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void addLockToken(
+string
+$lockToken)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Adds the specified lock token to the current Session.<br /><br /><p>Holding a lock token makes the current Session the owner of the lock  specified by that particular lock token.</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>api:</b>&nbsp;&nbsp;</td><td></td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\Lock\LockException if the specified lock token is already held by another Session and the                                    implementation does not support simultaneous ownership of open-scoped locks.</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\RepositoryException if another error occurs.</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$lockToken</b>&nbsp;&nbsp;</td>
+        <td>A lock token (a string).</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetLock"></a>
+	<h3>method getLock <span class="smalllinenumber">[line 81]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>\PHPCR\Lock\LockInterface getLock(
+string
+$absPath)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Returns the Lock object that applies to the node at the specified absPath.<br /><br /><p>This may be either a lock on that node itself or a deep lock on a node  above that node.</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>The applicable Lock object.</td>
+  </tr>
+  <tr>
+    <td><b>api:</b>&nbsp;&nbsp;</td><td></td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\Lock\LockException if no lock applies to this node.</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\AccessDeniedException if the current session does not have sufficient access to get the lock.</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\RepositoryException if another error occurs.</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\PathNotFoundException if no node is found at $absPath</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$absPath</b>&nbsp;&nbsp;</td>
+        <td>- absolute path of node for which to obtain the lock</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetLockTokens"></a>
+	<h3>method getLockTokens <span class="smalllinenumber">[line 95]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>array getLockTokens(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Gets the list of previously registered tokens.<br /><br /><p>Returns an array containing all lock tokens currently held by the current  Session. Note that any such tokens will represent open-scoped locks, since  session-scoped locks do not have tokens.</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>an array of lock tokens (strings)</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\RepositoryException if an error occurs.</td>
+  </tr>
+  <tr>
+    <td><b>api:</b>&nbsp;&nbsp;</td><td></td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodholdsLock"></a>
+	<h3>method holdsLock <span class="smalllinenumber">[line 112]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>boolean holdsLock(
+string
+$absPath)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Determines if the node identified by the passed path holds a lock.<br /><br /><p>Returns true if the node at absPath holds a lock; otherwise returns false.  To hold a lock means that this node has actually had a lock placed on it  specifically, as opposed to just having a lock apply to it due to a deep  lock held by a node above.</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>True, if the node identified by the given path holds a lock, else false.</td>
+  </tr>
+  <tr>
+    <td><b>api:</b>&nbsp;&nbsp;</td><td></td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\PathNotFoundException if no node is found at $absPath</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\RepositoryException if an error occurs.</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$absPath</b>&nbsp;&nbsp;</td>
+        <td>The absolute path of node to be checked.</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodisLocked"></a>
+	<h3>method isLocked <span class="smalllinenumber">[line 190]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>boolean isLocked(
+string
+$absPath)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Determines if the node at absPath is locked.<br /><br /><p>Returns true if the node at absPath is locked either as a result of a lock  held by that node or by a deep lock on a node above that node; otherwise  returns false.</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>True, if the identified node has a lock.</td>
+  </tr>
+  <tr>
+    <td><b>api:</b>&nbsp;&nbsp;</td><td></td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\PathNotFoundException if no node is found at $absPath.</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\RepositoryException if an error occurs.</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$absPath</b>&nbsp;&nbsp;</td>
+        <td>The absolute path of a node to be checked.</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodlock"></a>
+	<h3>method lock <span class="smalllinenumber">[line 174]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>\PHPCR\Lock\LockInterface lock(
+string
+$absPath, boolean
+$isDeep, boolean
+$isSessionScoped, integer
+$timeoutHint, string
+$ownerInfo)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Places a lock on the node at absPath.<br /><br /><p>If successful, the node is said to hold the lock.</p><p>If <strong>isDeep</strong> is true then the lock applies to the specified node and all its  descendant nodes; if false, the lock applies only to the specified node.  On a successful lock, the jcr:lockIsDeep property of the locked node is  set to this value.</p><p>If <strong>isSessionScoped</strong> is true then this lock will expire upon the expiration  of the current session (either through an automatic or explicit Session.logout);  if false, this lock does not expire until it is explicitly unlocked, it  times out, or it is automatically unlocked due to a implementation-specific  limitation.</p><p>The <strong>timeout</strong> parameter specifies the number of seconds until the lock times  out (if it is not refreshed with Lock.refresh in the meantime). An  implementation may use this information as a hint or ignore it altogether.  Clients can discover the actual timeout by inspecting the returned Lock  object.</p><p>The <strong>ownerInfo</strong> parameter can be used to pass a string holding owner  information relevant to the client. An implementation may either use or  ignore this parameter. If it uses the parameter it must set the jcr:lockOwner  property of the locked node to this value and return this value on  Lock.getLockOwner. If it ignores this parameter the jcr:lockOwner property  (and the value returned by Lock.getLockOwner) is set to either the value  returned by Session.getUserID of the owning session or an implementation-  specific string identifying the owner.</p><p>The method returns a Lock object representing the new lock. If the lock is  open-scoped the returned lock will include a lock token. The lock token is  also automatically added to the set of lock tokens held by the current session.</p><p>The addition or change of the properties jcr:lockIsDeep and jcr:lockOwner  are persisted immediately; there is no need to call save.</p><p>It is possible to lock a node even if it is checked-in.</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>A Lock object containing a lock token.</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\Lock\LockException if this node is not mix:lockable or this node is already locked or isDeep                                    is true and a descendant node of this node already holds a lock.</td>
+  </tr>
+  <tr>
+    <td><b>api:</b>&nbsp;&nbsp;</td><td></td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\RepositoryException if another error occurs.</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\AccessDeniedException if this session does not have sufficient access to lock this node.</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\InvalidItemStateException if this node has pending unsaved changes.</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\PathNotFoundException if no node is found at $absPath</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$absPath</b>&nbsp;&nbsp;</td>
+        <td>The absolute path of node to be locked</td>
+      </tr>
+          <tr>
+        <td class="type">boolean&nbsp;&nbsp;</td>
+        <td><b>$isDeep</b>&nbsp;&nbsp;</td>
+        <td>If true this lock will apply to this node and all its descendants;                         if false, it applies only to this node.</td>
+      </tr>
+          <tr>
+        <td class="type">boolean&nbsp;&nbsp;</td>
+        <td><b>$isSessionScoped</b>&nbsp;&nbsp;</td>
+        <td>If true, this lock expires with the current session;                                  if false it expires when explicitly or automatically unlocked for                                  some other reason.</td>
+      </tr>
+          <tr>
+        <td class="type">integer&nbsp;&nbsp;</td>
+        <td><b>$timeoutHint</b>&nbsp;&nbsp;</td>
+        <td>Desired lock timeout in seconds (servers are free to ignore this value);                              specify Long.MAX_VALUE for no timeout.</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$ownerInfo</b>&nbsp;&nbsp;</td>
+        <td>A string containing owner information supplied by the client; servers are                           free to ignore this value.</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodremoveLockToken"></a>
+	<h3>method removeLockToken <span class="smalllinenumber">[line 202]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void removeLockToken(
+string
+$lockToken)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Removes the specified lock token from this Session.<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>api:</b>&nbsp;&nbsp;</td><td></td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\Lock\LockException if the current Session does not hold the specified lock token.</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\RepositoryException if another error occurs.</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$lockToken</b>&nbsp;&nbsp;</td>
+        <td>- a lock token (a string)</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodunlock"></a>
+	<h3>method unlock <span class="smalllinenumber">[line 234]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void unlock(
+string
+$absPath)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Removes the lock on the node at absPath.<br /><br /><p>Also removes the properties jcr:lockOwner and jcr:lockIsDeep from that node.  As well, the corresponding lock token is removed from the set of lock tokens  held by the current Session.</p><p>If the node does not currently hold a lock or holds a lock for which this  Session is not the owner and is not a &quot;lock-superuser&quot;, then a  \PHPCR\Lock\LockException is thrown.</p><p><strong>Note:</strong>  However that the system may give permission to a non-owning session  to unlock a lock. Typically such &quot;lock-superuser&quot; capability is intended  to facilitate administrational clean-up of orphaned open-scoped locks.</p><p>Note that it is possible to unlock a node even if it is checked-in (the  lock-related properties will be changed despite the checked-in status).</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\Lock\LockException If this node does not currently hold a lock or holds a lock for which                                    this Session does not have the correct lock token.</td>
+  </tr>
+  <tr>
+    <td><b>api:</b>&nbsp;&nbsp;</td><td></td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\RepositoryException if another error occurs.</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\AccessDeniedException if the current session does not have permission to unlock this node.</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\InvalidItemStateException if this node has pending unsaved changes.</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>\PHPCR\PathNotFoundException if no node is found at $absPath</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$absPath</b>&nbsp;&nbsp;</td>
+        <td>The absolute path of node to be unlocked.</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+</div><br />
+
+
+        <div class="credit">
+		    <hr />
+		    Documentation generated on Fri, 17 Dec 2010 11:10:13 +0100 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.3</a>
+	      </div>
+      </td></tr></table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

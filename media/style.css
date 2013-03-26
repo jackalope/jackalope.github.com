@@ -60,7 +60,7 @@ a {
 .image-wrap {
   margin: 0em 0.5em;
 }
-.description {
+.description, .downloads {
   font-size: 1.2em;
 }
 .description p {

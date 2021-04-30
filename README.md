@@ -1,1 +1,1 @@
-See http://jackalope.github.com/
+See http://jackalope.github.io/
